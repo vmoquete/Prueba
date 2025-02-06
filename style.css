@@ -17,11 +17,12 @@ position:sticky;
 }
 
 button {
-cursor: pointer;
-background-color: #262626;
-color: #fcfcfc;
-padding: 10px;
-border-radius: 6px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+  cursor: pointer;
+  background-color: #262626;
+  color: #fcfcfc;
+  padding: 10px;
+  border-radius: 6px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  margin: 0 auto;
 }
