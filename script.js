@@ -1,9 +1,4 @@
-let ingredients = 
-vegetables: ["carrots", "celery", "spinach", "kale", "tomatoes", "onions", "potatoes", "cucumbers", "peppers", "broccoli"],
-poultry: ["chicken", "turkey", "ham", "bacon", "beef", "lamb", "pork", "venison", "salami", "sausage"],
-carbohydrates: ["rice", "pasta", "quinoa", "bread", "oats", "barley", "buckwheat", "whole wheat", "flax", "corn"]
-};
-
+let ingredients = ["carrots, chicken and broccoli", "celery", "spinach", "kale", "tomatoes", "onions", "potatoes", "cucumbers", "peppers", "ham, mushrooms and pineapple"];
 let methods = ["grilled", "baked", "fried", "roasted", "boiled", "steamed", "broiled", "smoked", "marinated", "sauteed"];
 
 
@@ -16,7 +11,7 @@ function generateRecipe() {
   const method = getRandomElement(methods);
 
   
-  let recipe = `Cook ${ingredient} by ${method}.`;
+  let recipe = `Cook ${ingredient} ${method}.`;
 
 
   const recipeDiv = document.getElementById('recipe');
